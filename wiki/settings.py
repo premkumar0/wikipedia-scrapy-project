@@ -88,7 +88,7 @@ ROBOTSTXT_OBEY = False
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 ITEM_PIPELINES = {'wiki.pipelines.MongoDBPipeline':0}
 
-MONGODB_SERVER = "mongodb+srv://premkumar:premkumar@cluster0.61gq8.mongodb.net/wikipedia?retryWrites=true&w=majority"
+MONGODB_SERVER = "mongodb+srv://username:password@cluster0.61gq8.mongodb.net/wikipedia?retryWrites=true&w=majority"
 
 MONGODB_DB = "wikipedia"
 MONGODB_COLLECTION = "inofboxes"
